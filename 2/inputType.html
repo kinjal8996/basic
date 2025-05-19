@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Types Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    input[type="search"],
+    input[type="url"],
+    input[type="tel"],
+    input[type="range"],
+    input[type="color"],
+    input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+
+    .radio-group label {
+      display: inline-block;
+      margin-right: 15px;
+      font-weight: normal;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h2>HTML Input Type Examples</h2>
+  <form>
+    <label>Text:
+      <input type="text" placeholder="Enter text">
+    </label>
+
+    <label>Password:
+      <input type="password" placeholder="Enter password">
+    </label>
+
+    <label>Email:
+      <input type="email" placeholder="Enter email">
+    </label>
+
+    <label>Number:
+      <input type="number" placeholder="Enter number">
+    </label>
+
+    <label>Date:
+      <input type="date">
+    </label>
+
+    <label>Time:
+      <input type="time">
+    </label>
+
+    <label>
+      <input type="checkbox"> I agree
+    </label>
+
+    <div class="radio-group">
+      <label><input type="radio" name="gender"> Male</label>
+      <label><input type="radio" name="gender"> Female</label>
+    </div>
+
+    <label>File:
+      <input type="file">
+    </label>
+
+    <label>Color:
+      <input type="color">
+    </label>
+
+    <label>Range:
+      <input type="range" min="0" max="30">
+    </label>
+
+    <label>Search:
+      <input type="search" placeholder="Search..." >
+    </label>
+
+    <label>URL:
+      <input type="url" placeholder="Enter URL">
+    </label>
+
+    <label>Tel:
+      <input type="tel" placeholder="Enter phone number">
+    </label>
+
+    
+    <input type="submit" value="submit" >
+  </form>
+</body>
+</html>
